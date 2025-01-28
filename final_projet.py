@@ -166,9 +166,9 @@ def menu_principal():
         couleur_ajouter = ROUGE_NEON if rect_ajouter.collidepoint(pos_souris) else VERT_MATRIX
         couleur_quitter = ROUGE_NEON if rect_quitter.collidepoint(pos_souris) else VERT_MATRIX
         
-        texte_jouer = police.render("[ 1 ] LANCER SÉQUENCE", True, couleur_jouer)
+        texte_jouer = police.render("[ 1 ] LANCEZ SÉQUENCE", True, couleur_jouer)
         texte_scores = police.render("[ 2 ] SCORES", True, couleur_scores)
-        texte_ajouter = police.render("[ 3 ] AJOUTER DONNÉES", True, couleur_ajouter)
+        texte_ajouter = police.render("[ 3 ] AJOUTEZ DONNÉES", True, couleur_ajouter)
         texte_quitter = police.render("[ 4 ] DÉCONNEXION", True, couleur_quitter)
         
         fenetre.blit(texte_jouer, (LARGEUR//2 - 100, HAUTEUR//2))
